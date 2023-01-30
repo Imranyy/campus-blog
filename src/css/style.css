@@ -8,6 +8,9 @@
     --black:black;
     --white-grey:#f2f2f2;
     --body-text:#676e8b;
+    --red:red;
+    --orange:orange;
+    --white:white;
 }
 body{
     /* font-family: 'Noto Sans NKo', monospace; */
@@ -21,6 +24,7 @@ ul{
     list-style: none;
 }
 nav{
+    background: var(--white);
     position:fixed;
     top: 0;
     left: 0;
@@ -58,5 +62,31 @@ nav{
     display: flex;
     flex-direction: column;
 }
-.index{
+.index .sub-title{
+    padding: 10px 0;
+}
+.tag{
+    background: var(--body-text);
+    position: fixed;
+    top: 20vh;
+    left: 44vw;
+    padding:10px 20px;
+    border-radius: 20px;
+    z-index: 110;
+    cursor: pointer;
+}
+.error{
+    color: var(--orange);
+}
+.blog-tag{
+    margin: 10px 0;
+    border-radius: 10px;
+    background: var(--black);
+    color: var(--white);
+    padding: 20px 30px;
+}
+/* footer */
+footer{
+    padding: 10px 20px 30px 30px;
+    background: var(--body-text);
 }

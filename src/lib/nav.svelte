@@ -1,5 +1,5 @@
 <script>
-    export let brand=`Campus Blog`
+     let brand=`Campus Blogs`
 </script>
 
 <nav>
