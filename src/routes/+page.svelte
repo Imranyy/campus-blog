@@ -15,12 +15,7 @@
 </div>
 
 <style>
-   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap');
-   @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;300;400;500&display=swap');
-   .index{
-    /* font-family: 'Noto Sans NKo', monospace; */
-    font-family: 'Roboto Condensed', monospace;
-   }
+  
     h1{
         color:red;
     }
