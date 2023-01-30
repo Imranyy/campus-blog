@@ -1,0 +1,40 @@
+@media screen and (max-width:900px){
+    .index header{
+        min-width: 80vw;
+    }
+    .blog-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        margin: 50px 0;
+        line-height: 25px;
+        border-bottom: solid 1px var(--grey);
+    }
+    .blog-item img{
+        width: 70vw;
+        height: 50vw;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width:700px){
+    .nav-top input{
+       display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .nav-bar{
+        padding: 20px;
+    }
+}
+
+@supports(backdrop-filter: blur(2rem)){
+    .menu-list{
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(3rem);
+    }
+}

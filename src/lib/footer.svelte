@@ -4,7 +4,8 @@
         <div class="quick-links">
             <h2>Quick Links</h2>
             <ul>
-                <li><a href="/home">Home <i class="fa fa-home"></i></a></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/">For you</li>
             </ul>
         </div>
     </div>

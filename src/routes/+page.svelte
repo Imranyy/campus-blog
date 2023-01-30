@@ -3,10 +3,10 @@
      export let data;
     let title=`For you`;
 
-    setTimeout(()=>{
-        // @ts-ignore
-        document.querySelector('.tag').style.display='none'
-    },3000)
+    // setTimeout(()=>{
+    //     // @ts-ignore
+    //     document.querySelector('.tag').style.display='none'
+    // },3000)
 </script>
 
 <div class="index start">
@@ -14,7 +14,7 @@
     <h1 class="title">{title}</h1>
     <p class="sub-title">Recommended based your interests</p>
    </header>
-    <ul>
+    <!-- <ul>
         {#if data.data}
             {#each data.data as item}
                 <li><a href={`/blogs/${item.id}`}>{item.name}</a></li>
@@ -24,7 +24,7 @@
             <p class="error">{data.error}</p>
         </div>
         {/if}
-    </ul>
+    </ul> -->
     <div class="blog-tag">
         <a href='/' class="blog-item">
            <div class="blog-title">
