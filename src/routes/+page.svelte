@@ -1,4 +1,6 @@
 <script>
+    /** @type {import('./$types').PageData} */
+     export let data;
 
     let title=`Welcome to campus blog`
     const updateTitle=()=>{
@@ -8,6 +10,16 @@
 
 <div class="index">
     <h1 class="title">{title}</h1>
+    <h3>list</h3>
+    <ul>
+        {#if data.data}
+            {#each data.data as item}
+                <li>{item.name}</li>
+            {/each}
+        {:else}
+            <p>{data.error}</p>
+        {/if}
+    </ul>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, fuga quos. Placeat magnam dolor officia consequatur dicta accusamus ab reiciendis iste, impedit sunt, nobis, repudiandae sed aut voluptatem delectus blanditiis.</p>
     <button on:click={updateTitle}>Update Title</button>
     <input type="text" bind:value={title} name="" id=""/>
