@@ -11,5 +11,5 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, fuga quos. Placeat magnam dolor officia consequatur dicta accusamus ab reiciendis iste, impedit sunt, nobis, repudiandae sed aut voluptatem delectus blanditiis.</p>
     <button on:click={updateTitle}>Update Title</button>
     <input type="text" bind:value={title} name="" id=""/>
-    <a href="/about">about <i class="fa fa-poo"></i></a>
+    <a href="/about">about <i class="fa fa-user"></i></a>
 </div>
