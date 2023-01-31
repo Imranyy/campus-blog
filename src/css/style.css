@@ -116,9 +116,11 @@ nav{
     color: var(--orange);
 }
 .blog-tag{
+    background: none;
+    background: #eeee;
+    /* color: var(--white); */
     border-radius: 10px;
-    background: var(--black);
-    color: var(--white);
+    color: var(--black);
     padding: 0 30px ;
 }
 .blog-item{
@@ -143,6 +145,7 @@ nav{
 /* footer */
 footer{
     padding: 10px 20px 30px 30px;
+    /* background: #eee; */
     background: var(--body-text);
 }
 .footer-links{
