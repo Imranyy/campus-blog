@@ -23,7 +23,7 @@
                      <a href={item.image}><img src={item.image} alt="blog image"/></a>
                      <p>{item.title}</p>
                 </div>
-                 <p class="snippet">{item.snippet}</p>
+                 <p class="snippet">{item.body.slice(0,500)}</p>
              </a>
             {/each}
         {:else}
